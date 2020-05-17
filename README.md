@@ -1,0 +1,1 @@
+# My custom addons for Home Assistant
