@@ -1,0 +1,15 @@
+{
+    "name": "Walter",
+    "version": "0.1",
+    "slug": "walter",
+    "description": "Walter is an addon responsible for providing firmware updates to my custom nodes.",
+    "arch": ["armv7", "amd64"],
+    "startup": "before",
+    "boot": "auto",
+    "options": {},
+    "schema": {},
+    "ports": {
+        "5000/tcp": 5010
+    },
+    "image": "frangiz/homeassistant-walter-{arch}"
+}
